@@ -69,20 +69,22 @@ const PerfoBot = () => {
                     </a>
                   </div>
                 </SwiperSlide>
-                {/* 
+
                 <SwiperSlide>
                   <div className="perfobot_right_wrapper">
-                    <a href={"https://troygame-frontend.herokuapp.com/"}>
+                    <a
+                      href={"https://tictoc-ebon.vercel.app/tictocwelcome.html"}
+                    >
                       <div className="perfobot_right_card">
                         <img
-                          src={require("../../outsideImg/game.png")}
+                          src={require("../../outsideImg/tic.PNG")}
                           alt="hello"
                           className="perfobot_right_img"
                         />
                       </div>
                     </a>
                   </div>
-                </SwiperSlide> */}
+                </SwiperSlide>
               </Swiper>
             </div>
           </div>
