@@ -1,3 +1,26 @@
+.swiper-pagination > .swiper-pagination-bullet {
+  opacity: 1;
+  padding: 0px 10px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+  margin: 2px 4px;
+}
+
+.swiper-pagination > .swiper-pagination-bullet-active {
+  background-color: blue;
+}
+
+.slide_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left_arrow {
+  margin: 10px 10px;
+}
+
 .perfobot_container {
   height: calc(100vh - 60px);
   width: 100%;
@@ -53,8 +76,6 @@
 .perfobot_right_container {
   height: 90%;
   width: 90%;
-  display: flex;
-  overflow: hidden;
 }
 
 .perfobot_right_wrapper {

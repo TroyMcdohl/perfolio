@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import "swiper/css";
 
@@ -35,10 +36,20 @@ const PerfoBot = () => {
           <div className="perfobot_right">
             <div className="perfobot_right_container">
               <Swiper
-                spaceBetween={10}
+                modules={[Navigation, Pagination]}
+                spaceBetween={50}
                 slidesPerView={1}
                 onSlideChange={() => console.log("slide change")}
                 onSwiper={(swiper) => console.log(swiper)}
+                pagination={{
+                  bulletActiveClass: "swiper-pagination-bullet-active",
+                  bulletClass: "swiper-pagination-bullet",
+                  clickable: true,
+                }}
+                navigation={{
+                  nextEl: ".next",
+                  prevEl: ".prev",
+                }}
               >
                 <SwiperSlide>
                   <div className="perfobot_right_wrapper">
@@ -56,7 +67,6 @@ const PerfoBot = () => {
                   </div>
                 </SwiperSlide>
 
-
                 <SwiperSlide>
                   <div className="perfobot_right_wrapper">
                     <a href={"https://shop-ui-tau.vercel.app/"}>
@@ -70,8 +80,6 @@ const PerfoBot = () => {
                     </a>
                   </div>
                 </SwiperSlide>
-
-              
 
                 <SwiperSlide>
                   <div className="perfobot_right_wrapper">
@@ -102,6 +110,10 @@ const PerfoBot = () => {
                     </a>
                   </div>
                 </SwiperSlide>
+                <div className="slide_arrow">
+                  <div className="next ">&gt;&gt;</div>
+                  <div className="prev left_arrow">&lt;&lt;</div>
+                </div>
               </Swiper>
             </div>
           </div>
