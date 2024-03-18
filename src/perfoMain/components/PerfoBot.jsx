@@ -56,6 +56,23 @@ const PerfoBot = () => {
                   </div>
                 </SwiperSlide>
 
+
+                <SwiperSlide>
+                  <div className="perfobot_right_wrapper">
+                    <a href={"https://shop-ui-tau.vercel.app/"}>
+                      <div className="perfobot_right_card">
+                        <img
+                          src={require("../../outsideImg/shopdoora.PNG")}
+                          alt="hello"
+                          className="perfobot_right_img"
+                        />
+                      </div>
+                    </a>
+                  </div>
+                </SwiperSlide>
+
+              
+
                 <SwiperSlide>
                   <div className="perfobot_right_wrapper">
                     <a href={"https://mern-shopping-ui.vercel.app"}>

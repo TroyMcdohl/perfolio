@@ -21,7 +21,7 @@ const ToggleWrapper = styled.div((props) => ({
   padding: "5px 10px",
   width: "30px",
   height: "10px",
-  borderRadius: "40%",
+  borderRadius: "10px",
   top: "0",
   bottom: "0",
   margin: "auto 10px",
