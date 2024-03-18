@@ -111,7 +111,7 @@ const PerfoBot = () => {
                   </div>
                 </SwiperSlide>
                 <div className="slide_arrow">
-                  <div className="next ">&gt;&gt;</div>
+                  <div className="next right_arrow ">&gt;&gt;</div>
                   <div className="prev left_arrow">&lt;&lt;</div>
                 </div>
               </Swiper>

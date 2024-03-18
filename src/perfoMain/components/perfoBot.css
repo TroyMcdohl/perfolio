@@ -17,8 +17,13 @@
   align-items: center;
 }
 
+.right_arrow {
+  cursor: pointer;
+}
+
 .left_arrow {
   margin: 10px 10px;
+  cursor: pointer;
 }
 
 .perfobot_container {
